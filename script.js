@@ -14,7 +14,6 @@ console.log(formulario);
 const boton = document.querySelector('#btn-enviar');
 console.log(boton);
 
-boton.addEventListener('click', () => {
-
-    alert('Haz hecho click en el boton');
-});
+function hazmeclick(params) {
+            return alert('hola' + document.querySelector('.inputid').value + ' ' + document.querySelector('p').textContent);
+        }

@@ -12,15 +12,22 @@
         <h1>Proyecto</h1>
         <h2>apuntes de javascript</h2>
         <h3>HOLAAAA</h3>
+        <h4 id="idH4"></h4>
         <p>esto es un parrafo de ejemplo</p>
         <img src="" alt="">
-        <button onclick="alert('¡Hola!')">APRETA AQUI</button>
+        <button id="btn-apreta">APRETA AQUI</button>
     </div>
 
     <div id="caja2">
         <label for=""> escriba el nombre</label>
-        <input type="text" name="" id="inputid" placeholder="juen jesus">
-        <button id="btn-enviar">enviar</button>
+        <input type="text" name="" id="inputid" class="inputid" placeholder="juen jesus">
+        <button onclick="hazmeclick()">enviar</button>
     </div>
+
+    <script>
+        function hazmeclick(params) {
+            return alert('hola' + document.querySelector('.inputid').value + ' ' + document.querySelector('p').textContent);
+        }
+    </script>
 </body>
 </html>
