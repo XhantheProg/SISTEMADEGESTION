@@ -10,3 +10,11 @@ console.log(caja1);
 
 const formulario = document.getElementById('inputid');
 console.log(formulario);
+
+const boton = document.querySelector('#btn-enviar');
+console.log(boton);
+
+boton.addEventListener('click', () => {
+
+    alert('Haz hecho click en el boton');
+});
