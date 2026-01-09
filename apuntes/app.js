@@ -12,7 +12,7 @@ console.log(updateproduct("celular", 4000));
 console.log("eliminar");
 console.log(deleteproduct());
 
-import {persona} form './';
+import {persona} from'./persona.js';
 const p1=new persona('maria', 'ramirez')
 const p2=new persona('maria', 'ramirez')
 console.log(p1);
